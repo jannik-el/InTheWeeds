@@ -1,10 +1,12 @@
+# labelling guidelines for label studio setup:
+
 <View>
   <Image name="image" value="$image" maxWidth="1000px"/>
   
   <Text name="p0" value="">
     Evaluate the eelgrass coverage in the image above.
     Base this evaluation on how much of entire image is filled with eelgrass.  
-    If the camera is not viewing the seabed, enter -999. 
+    If the camera is not viewing the seabed, enter 999. 
   </Text>
   
   <TextArea name="coverage" toName="image" skipDuplicates="true" maxSubmissions="1" placeholder="Enter coverage here without % symbol"/>
